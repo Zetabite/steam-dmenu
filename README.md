@@ -10,12 +10,12 @@ Reads installed Steam apps/games from all libraries referenced in the given `lib
 - dmenu or dmenu compatible application (dmenu, rofi, bemenu, wofi...)
 
 ## Significant differences in the fork
-The library parameter only allows for one library folder to be given, reason being, if a library isn't defined in the active installations `libraryfolders.vdf`, there will be issues to launch an app or game anways.
-You can hide certain apps/games, since you probably don't want tools like Proton to show up, or if you know you know.
-Enforcing python 3.9+, because I prefer the type hinting being even further integrated, as it makes it easier to understand what a variable or functions is supposed to do or store.
-Using python-vdf again, as it allows to easier read the files, but I am open to write my own parser for that.
-Customizing the display of the apps/games in dmenu.
-You can generate scripts to integrate the launching of games more tightly, so that you don't need to execute this program and then select your game.
+- The library parameter only allows for one library folder to be given, reason being, if a library isn't defined in the active installations `libraryfolders.vdf`, there will be issues to launch an app or game anways.
+- You can hide certain apps/games, since you probably don't want tools like Proton to show up, or if you know you know.
+- Enforcing python 3.9+, because I prefer the type hinting being even further integrated, as it makes it easier to understand what a variable or functions is supposed to do or store.
+- Using python-vdf again, as it allows to easier read the files, but I am open to write my own parser for that.
+- Customizing the display of the apps/games in dmenu.
+- You can generate scripts to integrate the launching of games more tightly, so that you don't need to execute this program and then select your game.
 
 ## Configuration
 ### dmenu compatible application
